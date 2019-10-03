@@ -38,6 +38,9 @@ Here are some of my recommended settings. These are optional, but I get asked a 
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 ```
 
 ### Prettier settings
