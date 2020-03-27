@@ -21,15 +21,22 @@ Here are some of my recommended settings. These are optional, but I get asked a 
 
   "editor.renderIndentGuides": false,
   "editor.formatOnSave": true,
-  "editor.formatOnPaste": true,
+  "editor.formatOnPaste": false,
   "editor.formatOnType": false,
   "editor.minimap.enabled": false,
   "editor.renderWhitespace": "none",
   "editor.tabCompletion": "on",
-  "editor.tabSize": 2,
   "editor.wordWrap": "off",
+  "editor.detectIndentation": false,
+  "editor.suggestSelection": "first",
 
-  "npm.packageManager": "yarn"
+  "extensions.ignoreRecommendations": true,
+
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+  "git.autofetch": true,
+
+  "npm.packageManager": "yarn",
 
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -38,6 +45,9 @@ Here are some of my recommended settings. These are optional, but I get asked a 
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[jsonc]": {
@@ -56,25 +66,28 @@ Here are some of my recommended settings. These are optional, but I get asked a 
 
 ```json
   "todo-tree.filtering.excludeGlobs": [
-    "**/node_modules/**",
-    "**/dist*/**"
-  ],
+      "**/node_modules/**",
+      "**/dist*/**"
+    ],
   "todo-tree.tree.flat": true,
+  "todo-tree.tree.showScanModeButton": false,
 ```
 
 ## Included
 
 Here is the list of extensions the pack includes:
 
-- [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - VS Code plugin for prettier/prettier
-- [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode) - AI-assisted development
-- [gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore) - A extension for Visual Studio Code that assists you in working with .gitignore files.
-- [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense) - Visual Studio Code plugin that autocompletes npm modules in import statements
-- [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) - Visual Studio Code plugin that autocompletes filenames
-- [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree) - Show TODO, FIXME, etc. comment tags in a tree view
-- [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) - Material Design Icons for Visual Studio Code
-- [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) - EditorConfig Support for Visual Studio Code
-- [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome) - Debug your JavaScript code in the Chrome browser.
-- [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight) - Highlight web colors in your editor
-- [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2) - A customizable extension for colorizing matching brackets
 - [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag) - Auto rename paired HTML/XML tag
+- [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=coenraadS.bracket-pair-colorizer-2) - A customizable extension for colorizing matching brackets
+- [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome) - Debug your JavaScript code in the Chrome browser.
+- [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=editorconfig.editorconfig) - EditorConfig Support for Visual Studio Code
+- [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph) - Graph for Git
+- [gitignore](https://marketplace.visualstudio.com/items?itemName=codezombiech.gitignore) - A extension for Visual Studio Code that assists you in working with .gitignore files.
+- [Live Share](https://marketplace.visualstudio.com/items?itemName=ms-vsliveshare.vsliveshare) - Real-time collaborative development
+- [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=pkief.material-icon-theme) - Material Design Icons for Visual Studio Code
+- [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense) - Visual Studio Code plugin that autocompletes filenames
+- [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense) - Visual Studio Code plugin that autocompletes npm modules in import statements
+- [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - VS Code plugin for prettier/prettier
+- [Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack) - An extension pack that lets you open any folder on a remote system.
+- [Todo Tree](https://marketplace.visualstudio.com/items?itemName=gruntfuggly.todo-tree) - Show TODO, FIXME, etc. comment tags in a tree view
+- [Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=visualStudioexptteam.vscodeintellicode) - AI-assisted development
